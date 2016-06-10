@@ -1,5 +1,11 @@
 // Back End
 
+function countDown(inputNumber){
+  for (var index = 1; index <= inputNumber; index += 1){
+    $("#results").append("<li>" + isDivisible(index) + " </li>");
+  }
+}
+
 function isDivisible (inputNumber){
   if ((inputNumber % 15) === 0){
     return "pingpong"
@@ -17,11 +23,15 @@ function isDivisible (inputNumber){
 $(document).ready(function(){
   $("form#pingpong").submit(function(event){
     event.preventDefault();
+    $("#results li").remove();
 
     var inputNumber = parseInt($("input#input-number").val());
+    var result = countDown(inputNumber);
 
-    var result = isDivisible(inputNumber);
+    // var result = isDivisible(inputNumber);
+    //
+    // $("#result").text(result);
 
-    $("#result").text(result);
+    $("#result").fadeIn();
   });
 });
