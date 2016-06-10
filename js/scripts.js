@@ -1,8 +1,8 @@
 // Back End
 
-function countDown(inputNumber){
+function countDown(inputNumber, resultList){
   for (var index = 1; index <= inputNumber; index += 1){
-    $("#results").append("<li>" + isDivisible(index) + " </li>");
+    $(resultList).append("<li>" + isDivisible(index) + " </li>");
   }
 }
 
@@ -18,7 +18,6 @@ function isDivisible (inputNumber){
   }
 }
 
-
 // Front End
 $(document).ready(function(){
   $("form#pingpong").submit(function(event){
@@ -26,12 +25,12 @@ $(document).ready(function(){
     $("#results li").remove();
 
     var inputNumber = parseInt($("input#input-number").val());
-    var result = countDown(inputNumber);
+    var result = countDown(inputNumber, "#results");
 
     // var result = isDivisible(inputNumber);
     //
     // $("#result").text(result);
 
-    $("#result").fadeIn();
+    $("#result-full").fadeIn();
   });
 });

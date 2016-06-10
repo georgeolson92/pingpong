@@ -1,4 +1,4 @@
-# _Divisible Ping Pong Championships_
+# _Divisible Ping Pong_
 
 #### _Count up to a number to play!_
 
@@ -14,13 +14,12 @@ _A program that counts up to a provided number and returns which of the counted 
   * __Example Input:__ 1
   * __Example Output:__ [1,2]
 * _It can determine whether each number is divisible by 3, 5, or 15._
-  * __Example Input:__ 3
+  * __Example Input:__ 6
   * __Example Output:__ [1, 2, "is divisible by 3", 4, "is divisible by 5", "is divisible by 3"]
 * _It can list out each number on the page with "ping", "pong", and "pingpong" determining whether the numbers are divisible by 3, 5 and 15 respectively_
-  * __Example Input:__ 3
-  * __Example Output:__ 1, 2, ping, 4, pong, ping
+  * __Example Input:__ 6
+  * __Example Output:__ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16
 ## Setup/Installation Requirements
-
 * _Use terminal to clone git repository to your computer._
 * _After cloning, use terminal to open the index.html file. You can now view the website in your browser._
 * _Enter a number into the provided input on the website._
