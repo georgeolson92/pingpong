@@ -3,66 +3,53 @@
   background-image:url('../img/floral.jpg');
   color: #002b80;
 }
-
 /*.header .container {
   background-color: rgba(255,255,255,0.5);
 }*/
-
 .header h1 {
   background-color: white;
   padding-top: 15px;
   margin-bottom: 40px;
 }
-
 #middle-section {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .pingpong-img {
   max-width: 200px;
   margin: 0px auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 #form-full {
   background-color: #00994d;
   color: white;
 }
-
 .alertmsg {
   color: red;
 }
-
 .btn-primary {
   background-color: #001f4d;
   border: 0px;
 }
-
 #pingpong {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
-
 form .btn {
   margin-top: 15px;
 }
-
 #result-full {
   background-image:url('../img/floral.jpg');
   display: none;
 }
-
 #result-full .container {
   background-color: white;
 }
-
 #result {
   margin-top: 30px;
   background-color: white;
@@ -71,21 +58,17 @@ form .btn {
   color: black;
   margin-bottom: 30px;
 }
-
 #result h2 {
   color: #002b80;
 }
-
 #result h2, #bottom h2 {
   margin-top: 0px;
   padding: 10px;
   text-align: center;
 }
-
 #bottom h2 {
   color: white;
 }
-
 #bottom {
   text-align: center;
   padding-top: 30px;
