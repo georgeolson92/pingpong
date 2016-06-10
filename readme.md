@@ -11,14 +11,16 @@ _A program that counts up to a provided number and returns which of the counted 
 ## Specifications
 
 * _It can count up to a provided number._
-  * __Example Input:__ 1
-  * __Example Output:__ [1,2]
+  * __Example Input:__ _1_
+  * __Example Output:__ _[1,2]_
 * _It can determine whether each number is divisible by 3, 5, or 15._
-  * __Example Input:__ 6
-  * __Example Output:__ [1, 2, "is divisible by 3", 4, "is divisible by 5", "is divisible by 3"]
+  * __Example Input:__ _6_
+  * __Example Output:__ _[1, 2, "is divisible by 3", 4, "is divisible by 5", "is divisible by 3"]_
 * _It can list out each number on the page with "ping", "pong", and "pingpong" determining whether the numbers are divisible by 3, 5 and 15 respectively_
-  * __Example Input:__ 6
-  * __Example Output:__ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16
+  * __Example Input:__ _6_
+  * __Example Output:__ _1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16_
+
+
 ## Setup/Installation Requirements
 * _Use terminal to clone git repository to your computer._
 * _After cloning, use terminal to open the index.html file. You can now view the website in your browser._
