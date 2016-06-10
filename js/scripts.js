@@ -22,15 +22,20 @@ function isDivisible (inputNumber){
 $(document).ready(function(){
   $("form#pingpong").submit(function(event){
     event.preventDefault();
+    $(".alertmsg").remove();
     $("#results li").remove();
 
     var inputNumber = parseInt($("input#input-number").val());
+
+    if (inputNumber !== inputNumber){
+      $(".form-group").append("<span class='alertmsg'>Please enter a valid number.</span>");
+      return false;
+    } else if (inputNumber < 0){
+      $(".form-group").append("<span class='alertmsg'>Please enter a positive integer.</span>");
+      return false;
+    } 
+
     var result = countDown(inputNumber, "#results");
-
-    // var result = isDivisible(inputNumber);
-    //
-    // $("#result").text(result);
-
     $("#result-full").fadeIn();
   });
 });
