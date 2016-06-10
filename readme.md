@@ -11,12 +11,12 @@ _A program that counts up to a provided number and returns which of the counted 
 ## Specifications
 
 * _It can count up to a provided number._
-  * __Example Input:__ _1_
+  * __Example Input:__ _2_
   * __Example Output:__ _[1,2]_
 * _It can determine whether each number is divisible by 3, 5, or 15._
   * __Example Input:__ _6_
   * __Example Output:__ _[1, 2, "is divisible by 3", 4, "is divisible by 5", "is divisible by 3"]_
-* _It can list out each number on the page with "ping", "pong", and "pingpong" determining whether the numbers are divisible by 3, 5 and 15 respectively_
+* _It can list out each number on the page with, and determine whether the numbers are divisible by 3, 5 and 15 by replacing them with "ping", "pong", and "pingpong" respectively._
   * __Example Input:__ _6_
   * __Example Output:__ _1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16_
 
@@ -36,7 +36,7 @@ _No known bugs in the current version._
 _HTML, CSS, JavaScript, jQuery_
 
 ## Contact Info
-_Should you experience any issues or would like to get in touch with the creator, contact George Olson at <a href="mailto:georgeolson92@gmail.com">georgeolson92@gmail.com</a>._
+_Should you experience any issues and/or would like to get in touch with the creator, contact George Olson at <a href="mailto:georgeolson92@gmail.com">georgeolson92@gmail.com</a>._
 
 ### License
 
